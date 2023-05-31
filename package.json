@@ -1,0 +1,40 @@
+{
+  "name": "hedera-certification",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kartickint/hedera-certification"
+  },
+  "scripts": {
+    "accounts:create-account": "node scripts/createAccount/createAccount.js",
+    "token:create-token": "node scripts/tokenService/createToken.js",
+    "smart-contract:deploy-to-hedera": "node scripts/smartContract/deploySmartContract.js",
+    "smart-contract:transact": "node scripts/smartContract/executeSmartContract.js",
+    "transaction:create-schedule": "node scripts/scheduleTransaction/scheduleTransaction.js",
+    "transaction:delete-schedule": "node scripts/scheduleTransaction/deleteScheduleTransaction.js",
+    "transaction:submit-signature": "node scripts/scheduleTransaction/submitSignature.js",
+    "multi-signature:allowance": "node scripts/multiSignature/allowance.js",
+    "multi-signature:approve-allowance": "node scripts/multiSignature/approveAllowance.js",
+    "token:mintAndTransferNFT": "node scripts/tokenService/mintToken.js",
+    "consensus:create-topic": "node scripts/consensus/createTopic.js",
+    "consensus:send-message": "node scripts/consensus/sendMessage.js"
+  },
+  "author": "kartick.das@indusnet.co.in",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "fs": "0.0.1-security",
+    "joi": "^17.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}

@@ -1,0 +1,10 @@
+Schedule Transaction Output
+--------------------------------------
+The schedule ID is 0.0.13726795
+Base64 of schedule Id MC4wLjEzNzI2Nzk1
+The scheduled transaction ID is 0.0.13721954@1685529822.903357970?scheduled
+
+Delete Transaction Output
+---------------------------------------
+The schedule ID is 0.0.13726795
+The transaction consensus status is  Status { _code: 22 }
